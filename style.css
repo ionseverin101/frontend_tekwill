@@ -1,0 +1,154 @@
+*{
+box-sizing: border-box;
+}
+
+body{
+    background-color: #F0FFFF;
+    margin: 0;
+    padding: 0;
+}
+/* --------------------------------------------------------------------- Button "Submit" ---------------------------------------------------------------------------------------------------- */
+.submit{
+    color: #fff;
+    background: #351C75;
+    width: 185px;
+    height: 48px;   
+    padding: 10px 15px;
+    margin: 2rem 50rem;
+    border-radius: 38px;
+    border: none;
+    transition: all 0.2s ease;
+    display: inline-block;
+} 
+.submit:active{
+    transform: scale(0.96);
+}
+.submit:hover{
+    color: #351c75;
+    background-color: #fff;
+    border-color: #351C75;
+    border: 1px solid;
+}
+.submit:active{
+    transform: scale(0.96);
+}
+.submit:hover{
+    color: #351c75;
+    background-color: #fff;
+    border-color: #351C75;
+    border: 1px solid;
+    cursor: pointer;
+}
+/* --------------------------------------------------------------------- Paragraph Size ------------------------------------------------------------------------------------------------------ */
+
+p{
+    font-size: 16px;
+}
+/* --------------------------------------------------------------------- Nav Bar ------------------------------------------------------------------------------------------------------ */
+#nav-bar{
+    font-size: 16px;
+    margin: 10px;
+    padding: 0px 5%;
+    border: 0px;
+    border-radius: 10px;
+    display: flex;
+    background-color: #00004C;
+    color: #fff;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+#nav-bar h1{
+    font-size: 26px;
+}
+
+.nav-list{
+    list-style-type: none;
+    color: #fff;
+}
+
+.nav-list a{
+    color: #fff;   
+    text-decoration: none; 
+    
+}
+
+.nav-list li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+
+.nav-list a:hover{
+    color: red;
+    transition: 1s;
+
+}
+
+.google-btn img{
+    padding: 0px;
+    margin: 0px;
+    width: 50px;
+    height: 50px;
+}
+/* --------------------------------------------------------------------- Content ---------------------------------------------------------------------------------------------------- */
+.girl-image{
+    padding: 20px;
+    margin: 0px;
+}
+.girl-image h2{
+    text-align: center;
+    font-size: 32px;
+    border-bottom: 2px solid #000;
+    padding: 0px 10px 30px 10px;
+    width: 100%;
+}
+.girl-image p{
+    text-align: center;
+}
+
+.girl-image img{
+    border: 0;
+    border-radius: 18px;
+    padding: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 12%;
+}
+.girl-image p{
+    border-bottom: 2px solid #000;
+    padding: 0px 10px 30px 10px;
+    width: 100%;
+}
+
+.coding-description {
+    padding: 30px;
+    margin: 0;
+    text-align: center;
+}
+.coding-description img{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.coding-description p{
+    border-bottom: 2px solid #000;
+    padding: 0px 10px 30px 10px;
+    width: 100%;
+}
+.discription-section{
+    padding: 0px 30px;
+    margin: 0px; 
+}
+.discription-section ol{   
+    border-bottom: 2px solid #000;
+    padding: 0px 10px 30px 10px;
+    width: 100%;
+}
+.reasons-section{
+    padding: 0px 30px;
+    margin: 0px; 
+}
+
