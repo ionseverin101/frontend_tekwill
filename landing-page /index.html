@@ -1,12 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap"
+        rel="stylesheet">
     <title>Landing Page</title>
 </head>
+
 <body>
-    
+
+    <!-- nav-bar -->
+
+    <header>
+        <a href="#" class="logo">Sprivaten</a>
+
+        <nav class="nav-bar">
+            <a href="#">Home</a>
+            <a href="#">Product</a>
+            <a href="#">Pricing</a>
+            <a href="#">Contact</a>
+            <a href="#" class="icons"><img src="/landing-page /incon/magnifier.svg" alt="magnifier"></a>
+            <a href="#" class="icons"><img src="/landing-page /incon/shopping-cart.svg" alt="shopping-cart"></a>
+        </nav>
+
+        <a id="menu-icon" href=""><img src="/landing-page /incon/menu.svg" alt=""></a>
+
+    </header>
+
+    <!-- Ladding Page  -->
+
+    <div class="home-page">
+
+
+        <div class="future-button">
+            <h1>We Take Care of <span>the Future</span></h1>
+
+            <p>We know how large objects will act,
+                <span> but things on a small scale.</span></p>
+
+            <button>Get Quote Now</button>
+            <button id="learn-button">Learn More</button>
+        </div>
+
+        <!-- Form -->
+
+        <div class="appointment-form">
+
+            <h3>Book Appointment</h3>
+
+            <label for="text">Name*</label>
+            <input type="text" id="fname" name="fname" placeholder="Full Name">
+
+            <label for="email">Form*</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com">
+
+            <label for="text">Department*</label>
+            <input type="text" list="department" placeholder="Please Select">
+            <datalist id="department">
+                <option value="HR">
+                <option value="IT">
+                <option value="Marketing">
+            </datalist>
+
+            <label for="text">Time*</label>
+            <input type="text" list="time" placeholder="4:00 Available">
+            <datalist id="time">
+                <option value="8:30 AM Available">
+                <option value="11:30 AM Available">
+                <option value="1:30 PM Available">
+                <option value="4:30 PM Available"></option>
+            </datalist>
+
+            <button>Book Appointment</button>
+        </div>
+    </div>
+
 </body>
+
 </html>
