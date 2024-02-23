@@ -15,71 +15,362 @@
 <body>
 
     <!-- nav-bar -->
+    <div class="homePage">
+        <header>
+            <a href="#" class="logo">Sprivaten</a>
 
-    <header>
-        <a href="#" class="logo">Sprivaten</a>
+            <nav class="nav-bar">
+                <a href="#">Home</a>
+                <a href="#">Product</a>
+                <a href="#">Pricing</a>
+                <a href="#">Contact</a>
+                <a href="#" class="icons"><img src="incon/magnifier.svg" alt="magnifier"></a>
+                <a href="#" class="icons"><img src="incon/shopping-cart.svg" alt="shopping-cart"></a>
+            </nav>
 
-        <nav class="nav-bar">
-            <a href="#">Home</a>
-            <a href="#">Product</a>
-            <a href="#">Pricing</a>
-            <a href="#">Contact</a>
-            <a href="#" class="icons"><img src="/landing-page /incon/magnifier.svg" alt="magnifier"></a>
-            <a href="#" class="icons"><img src="/landing-page /incon/shopping-cart.svg" alt="shopping-cart"></a>
-        </nav>
+            <a id="menu-icon" href=""><img src="incon/menu.svg" alt="menu icon"></a>
 
-        <a id="menu-icon" href=""><img src="/landing-page /incon/menu.svg" alt=""></a>
+        </header>
 
-    </header>
+        <!-- Ladding Page  -->
 
-    <!-- Ladding Page  -->
-
-    <div class="home-page">
+        <div class="home-page">
 
 
-        <div class="future-button">
-            <h1>We Take Care of <span>the Future</span></h1>
+            <div class="future-button">
+                <h1>We Take Care of <br> the Future</h1>
 
-            <p>We know how large objects will act,
-                <span> but things on a small scale.</span></p>
+                <p>We know how large objects will act,
+                    <span> but things on a small scale.</span></p>
 
-            <button>Get Quote Now</button>
-            <button id="learn-button">Learn More</button>
-        </div>
+                <button>Get Quote Now</button>
+                <button id="learn-button">Learn More</button>
+            </div>
 
-        <!-- Form -->
+            <!-- Form -->
 
-        <div class="appointment-form">
+            <div class="appointment-form">
 
-            <h3>Book Appointment</h3>
+                <h3>Book Appointment</h3>
 
-            <label for="text">Name*</label>
-            <input type="text" id="fname" name="fname" placeholder="Full Name">
+                <label for="text">Name*</label>
+                <input type="text" id="fname" name="fname" placeholder="Full Name">
 
-            <label for="email">Form*</label>
-            <input type="email" id="email" name="email" placeholder="example@gmail.com">
+                <label for="email">Form*</label>
+                <input type="email" id="email" name="email" placeholder="example@gmail.com">
 
-            <label for="text">Department*</label>
-            <input type="text" list="department" placeholder="Please Select">
-            <datalist id="department">
-                <option value="HR">
-                <option value="IT">
-                <option value="Marketing">
-            </datalist>
+                <label for="text">Department*</label>
+                <input type="text" list="department" placeholder="Please Select">
+                <datalist id="department">
+                    <option value="HR">
+                    <option value="IT">
+                    <option value="Marketing">
+                </datalist>
 
-            <label for="text">Time*</label>
-            <input type="text" list="time" placeholder="4:00 Available">
-            <datalist id="time">
-                <option value="8:30 AM Available">
-                <option value="11:30 AM Available">
-                <option value="1:30 PM Available">
-                <option value="4:30 PM Available"></option>
-            </datalist>
+                <label for="text">Time*</label>
+                <input type="text" list="time" placeholder="4:00 Available">
+                <datalist id="time">
+                    <option value="8:30 AM Available">
+                    <option value="11:30 AM Available">
+                    <option value="1:30 PM Available">
+                    <option value="4:30 PM Available"></option>
+                </datalist>
 
-            <button>Book Appointment</button>
+                <button>Book Appointment</button>
+            </div>
         </div>
     </div>
+    <!-- Section -->
 
+    <section class="landing-services">
+        <h2>WHY CHOOSE US</h2>
+        <p>Problems trying to resolve the conflict between,<br>
+            <span>the two major realms of Classical physics: Newtonian mechanics</span> </p>
+
+        <div class="containers">
+
+            <div>
+                <div class="title">
+                    <img src="incon/people.svg" alt="people-icon">
+                    <h5>Web Development</h5>
+                </div>
+                <div class="description">
+                    <h6>- The best products start with Figma</h6>
+                    <h6>- Design with real data</h6>
+                    <h6>- Lightning fast prototyping</h6>
+                    <h6>- Fastest way to organize</h6>
+                    <h6>- Work at the speed of thought</h6>
+                </div>
+            </div>
+
+
+            <div>
+                <div class="title">
+                    <img src="incon/badge.svg" alt="people-icon">
+                    <h5>National top 50 firms</h5>
+                </div>
+                <div class="description">
+                    <h6>- The best products start with Figma</h6>
+                    <h6>- Design with real data</h6>
+                    <h6>- Lightning fast prototyping</h6>
+                    <h6>- Fastest way to organize</h6>
+                    <h6>- Work at the speed of thought</h6>
+                </div>
+            </div>
+
+            <div>
+                <div class="title">
+                    <img id="icon-cart" src="incon/marketing.svg" alt="people-icon">
+                    <h5>Digital Marketing</h5>
+                </div>
+                <div class="description">
+                    <h6>- The best products start with Figma</h6>
+                    <h6>- Design with real data</h6>
+                    <h6>- Lightning fast prototyping</h6>
+                    <h6>- Fastest way to organize</h6>
+                    <h6>- Work at the speed of thought</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  -->
+    <section class="landing-presentation">
+        <h2>We are providing best <br>business service.</h2>
+        <p>Problems trying to resolve the conflict between ,<br>
+            the two major realms of Classical physics: Newtonian mechanics.</p>
+        <img class="badge-img" src="img/badge.png" alt="">
+        <div class="btn-play">
+            <div class="play-img">
+                <img class="play" src="incon/play.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!--  -->
+
+    <section class="landing-presentation3">
+
+        <h2>What Clients Say</h2>
+        <p>Problems trying to resolve the conflict between ,<br>
+            the two major realms of Classical physics: Newtonian mechanics.</p>
+
+        <div class="reviews">
+
+            <div class="card-item">
+                <img src="incon/star.svg" alt="">
+                <img src="incon/star.svg" alt="">
+                <img src="incon/star.svg" alt="">
+                <img src="incon/star.svg" alt="">
+                <img src="incon/star-empty.svg" alt="">
+
+                <p>Slate helps you see how many
+                    more days you need to work to
+                    reach your financial goal.</p>
+
+                <img class="reviewers" src="img/person-1.png" alt="">
+                <div class="client">
+                    <h5 id="name">Regina Miles</h5>
+                    <h5>Designer</h5>
+                </div>
+
+            </div>
+
+            <div class="card-item">
+                <img src="incon/star.svg" alt="">
+                <img src="incon/star.svg" alt="">
+                <img src="incon/star.svg" alt="">
+                <img src="incon/star.svg" alt="">
+                <img src="incon/star-empty.svg" alt="">
+
+                <p>Slate helps you see how many
+                    more days you need to work to
+                    reach your financial goal.</p>
+
+                <img class="reviewers" src="img/person-2.png" alt="">
+                <div class="client">
+                    <h5 id="name">Regina Miles</h5>
+                    <h5>Designer</h5>
+                </div>
+
+            </div>
+
+            <div class="card-item">
+                <img src="incon/star.svg" alt="">
+                <img src="incon/star.svg" alt="">
+                <img src="incon/star.svg" alt="">
+                <img src="incon/star.svg" alt="">
+                <img src="incon/star-empty.svg" alt="">
+
+                <p>Slate helps you see how many
+                    more days you need to work to
+                    reach your financial goal.</p>
+
+                <img class="reviewers" src="img/person-3.png" alt="">
+                <div class="client">
+                    <h5 id="name">Regina Miles</h5>
+                    <h5>Designer</h5>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!--  -->
+    <section class="landing-presentation">
+        <h2>Meet Our Team</h2>
+        <p>Problems trying to resolve the conflict between ,<br>
+            the two major realms of Classical physics: Newtonian mechanics.</p>
+
+        <div class="staff-card">
+
+            <div class="card-founder">
+                <img class="img-staff" src="img/person-4.png" alt="">
+
+                <div class="staff">
+                    <div class="name-staff">
+                        <h4>Avie Beaton</h4>
+                        <h6 id="status-staff">CO Fonder</h6>
+                    </div>
+
+                    <div class="icon-staff">
+                        <img src="incon/facebook.svg" alt="">
+                        <img src="incon/insta.svg" alt="">
+                        <img src="incon/twitter.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="card-founder">
+                <img class="img-staff" src="img/person-5.png" alt="">
+
+                <div class="staff">
+                    <div class="name-staff">
+                        <h4>Avie Beaton</h4>
+                        <h6 id="status-staff">Consultant</h6>
+                    </div>
+
+                    <div class="icon-staff">
+                        <img src="incon/facebook.svg" alt="">
+                        <img src="incon/insta.svg" alt="">
+                        <img src="incon/twitter.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="card-founder">
+                <img class="img-staff" src="img/person-6.png" alt="">
+
+                <div class="staff">
+                    <div class="name-staff">
+                        <h4>Avie Beaton</h4>
+                        <h6 id="status-staff">CEO</h6>
+                    </div>
+
+                    <div class="icon-staff">
+                        <img src="incon/facebook.svg" alt="">
+                        <img src="incon/insta.svg" alt="">
+                        <img src="incon/twitter.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="contact-container">
+            <div class="cover-images">
+                <div class="title-form">
+                    <h5>Contact Us</h5>
+                    <h2>Make an Appointment</h2>
+                </div>
+
+                <div class="appointment-contact">
+                    <input type="text" name="fname" placeholder="Full Name">
+                    <input type="text" name="fname" placeholder="example@gmail.com">
+
+                    <input type="text" list="time" placeholder="Please Select">
+                    <datalist>
+                        <option value="8:30 AM Available">
+                        <option value="11:30 AM Available">
+                        <option value="1:30 PM Available">
+                        <option value="4:30 PM Available"></option>
+                    </datalist>
+
+                    <input type="text" list="time" placeholder="Time">
+                    <datalist>
+                        <option value="8:30 AM Available">
+                        <option value="11:30 AM Available">
+                        <option value="1:30 PM Available">
+                        <option value="4:30 PM Available"></option>
+                    </datalist>
+                    <input type="text" list="time" placeholder="Message">
+                </div>
+
+                <button id="buttonApoint">Book Appointment</button>
+            </div>
+        </div>
+
+        <div class="row-contact">
+            <div>
+                <h3>Consulting Agency For Your Business</h3>
+                <p id="top-nav-footer">the quick fox jumps over the lazy dog</p>
+            </div>
+            <button id="contactUs">Conttact Us</button>
+        </div>
+
+    </section>
+
+
+    <footer>
+        <div class="top-footer">
+            <h3>Sprivaten</h3>
+            <div class="icon-footer">
+                <img src="incon/facebook.svg" alt="">
+                <img src="incon/insta.svg" alt="">
+                <img src="incon/twitter.svg" alt="">
+                <img src="incon/youtube.svg" alt="">
+            </div>
+        </div>
+        <div class="footer-content">
+            <div class="columns-footer">
+                <h5>Company Info</h5>
+                <h6>About Us</h6>
+                <h6>We are hiring</h6>
+                <h6>Carrier</h6>
+                <h6>Blog</h6>
+            </div>
+            <div class="columns-footer">
+                <h5>Legal</h5>
+                <h6>About Us</h6>
+                <h6>We are hiring</h6>
+                <h6>Carrier</h6>
+                <h6>Blog</h6>
+            </div>
+            <div class="columns-footer">
+                <h5>Features</h5>
+                <h6>Business Marketing</h6>
+                <h6>User Analitic</h6>
+                <h6>Live Chat</h6>
+                <h6>Unlimited Support</h6>
+            </div>
+            <div class="columns-footer">
+                <h5>Resources</h5>
+                <h6>IOS & Android</h6>
+                <h6>Watch a Demo</h6>
+                <h6>Customers</h6>
+                <h6>API</h6>
+            </div>
+            <div class="columns-footer">
+                <h5>Get In Touch</h5>
+                <input type="text" name="Your Email" id="" placeholder="Your Email">
+                <button>Subscribe</button>
+                <h6 id="lorem-h6">Lorem impsum dolor amit</h6>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright-footer">
+            <h6>Made With Love By Figmaland All Right Reserved </h6>
+    </div>
 </body>
 
 </html>
